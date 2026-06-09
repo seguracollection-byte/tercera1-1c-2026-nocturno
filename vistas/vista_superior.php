@@ -22,6 +22,12 @@
               <a href="./playstation.php">Playstation</a>
               <a href="./nintendo.php">Nintendo</a>  
             </div>
+
+            <div class="menu-container">
+                 <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
         </menu>  
 
     </header>

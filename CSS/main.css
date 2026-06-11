@@ -52,6 +52,82 @@ padding-right: 50px;
 
 }
 
+.card-list {
+    background-color: orange;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0 30px 0;
+}
+
+.card-item {
+    width: 27%;
+    border: solid 2px black;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-item img {
+    width: 100%;
+    height: auto;
+}
+
+
+.card-info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0 10px 10px;
+}
+
+.card-desc{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 0 10px 10px 10px;
+
+}
+
+.boton-cta{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 0 10px 10px 0;
+
+}
+
+.card-cta{
+    background-color: rgb(32, 7, 115);
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    border: solid 1px black;
+
+
+}
+
+.card-cta:hover{
+    transform: scale(0.95);
+
+}
+
 @media (max-width: 768px) {
 
 .menu {
@@ -120,7 +196,9 @@ align-items: center;
 
 }
 
-
+.card-item{
+    width: 90%;
+}
 
 
 
